@@ -144,10 +144,10 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:52px 6% 26px}
   </div>
   <div class="hero-right">
     <div class="hero-float">
-      <div class="float-card"><div class="float-icon">🍲</div><div class="float-name">Ollas Premium</div><div class="float-price">Desde S/ 89</div></div>
-      <div class="float-card"><div class="float-icon">🍽️</div><div class="float-name">Set Vajilla</div><div class="float-price">Desde S/ 120</div></div>
-      <div class="float-card"><div class="float-icon">🫖</div><div class="float-name">Utensilios</div><div class="float-price">Desde S/ 35</div></div>
-      <div class="float-card"><div class="float-icon">🛁</div><div class="float-name">Baño & Spa</div><div class="float-price">Desde S/ 55</div></div>
+      <div class="float-card"><div class="float-icon">🥡</div><div class="float-name">Taper</div><div class="float-price">Gran variedad</div></div>
+      <div class="float-card"><div class="float-icon">🎒</div><div class="float-name">Tomatodo Kids</div><div class="float-price">Para los peques</div></div>
+      <div class="float-card"><div class="float-icon">🍽️</div><div class="float-name">Vajilla</div><div class="float-price">Diseños únicos</div></div>
+      <div class="float-card"><div class="float-icon">🍴</div><div class="float-name">Cubiertos</div><div class="float-price">Alta calidad</div></div>
     </div>
   </div>
 </div>
@@ -160,22 +160,24 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:52px 6% 26px}
 <section id="categorias">
   <div class="stag st-lav">Explorar</div><h2 class="stitle">Categorías</h2><p class="ssub">Todo lo que necesitás para tu hogar en un solo lugar.</p>
   <div class="cat-grid" id="cat-grid">
-    <div class="cat-card" data-filter="cocina"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🍳</span><div class="cat-name">Cocina</div><div class="cat-count"></div></div>
-    <div class="cat-card" data-filter="vajilla"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🍽️</span><div class="cat-name">Vajilla & Mesa</div><div class="cat-count"></div></div>
-    <div class="cat-card" data-filter="sala"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🛋️</span><div class="cat-name">Sala & Deco</div><div class="cat-count"></div></div>
-    <div class="cat-card" data-filter="bano"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🛁</span><div class="cat-name">Baño & Spa</div><div class="cat-count"></div></div>
-    <div class="cat-card" data-filter="dormitorio"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🛏️</span><div class="cat-name">Dormitorio</div><div class="cat-count"></div></div>
-    <div class="cat-card" data-filter="organiz"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🧴</span><div class="cat-name">Organización</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="taper"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🥡</span><div class="cat-name">Taper</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="tomatodo-kids"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🎒</span><div class="cat-name">Tomatodo Kids</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="tomatodo-juvenil"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🧃</span><div class="cat-name">Tomatodo Juvenil</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="cubierto"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🍴</span><div class="cat-name">Cubiertos</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="vajilla"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🍽️</span><div class="cat-name">Vajilla</div><div class="cat-count"></div></div>
+    <div class="cat-card" data-filter="aseo"><button class="cat-edit-btn" onclick="editCat(this,event)">✏️</button><span class="cat-emoji">🧴</span><div class="cat-name">Aseo</div><div class="cat-count"></div></div>
   </div>
 </section>
 <section class="prod-sec" id="productos">
   <div class="stag st-mint">Catálogo</div><h2 class="stitle">Productos destacados</h2><p class="ssub">Los favoritos de nuestros clientes, seleccionados por calidad y diseño.</p>
   <div class="prod-filter">
     <button class="fbtn active" onclick="fp(this,'todos')">Todos</button>
-    <button class="fbtn" onclick="fp(this,'cocina')">Cocina</button>
+    <button class="fbtn" onclick="fp(this,'taper')">Taper</button>
+    <button class="fbtn" onclick="fp(this,'tomatodo-kids')">Tomatodo Kids</button>
+    <button class="fbtn" onclick="fp(this,'tomatodo-juvenil')">Tomatodo Juvenil</button>
+    <button class="fbtn" onclick="fp(this,'cubierto')">Cubiertos</button>
     <button class="fbtn" onclick="fp(this,'vajilla')">Vajilla</button>
-    <button class="fbtn" onclick="fp(this,'bano')">Baño</button>
-    <button class="fbtn" onclick="fp(this,'sala')">Decoración</button>
+    <button class="fbtn" onclick="fp(this,'aseo')">Aseo</button>
   </div>
   <div class="prod-grid" id="prod-grid"></div>
 </section>
@@ -202,17 +204,17 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:52px 6% 26px}
   </div>
 </section>
 <div class="cta-sec" id="contacto">
-  <h2>¿Listo para renovar tu hogar?</h2><p>Escribinos por WhatsApp y te ayudamos a encontrar lo que necesitás</p>
-  <a id="wa-link" href="#" class="btnw">💬 Escribir por WhatsApp</a>
+  <h2>¿Listo para renovar tu hogar?</h2><p>Escribinos por WhatsApp y te ayudamos a encontrar lo que necesitás<br><small style="opacity:.8">📍 Jr. Inambari 745 Int. 14 y 29 · Lima, Perú</small></p>
+  <a id="wa-link" href="https://wa.me/51977746427?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20productos%20%F0%9F%8F%A0" target="_blank" class="btnw">💬 Escribir por WhatsApp</a>
 </div>
 <footer>
   <div class="fg">
-    <div class="fbrand"><a href="#" class="logo" style="color:#fff">Tuki<span style="color:var(--rose)">Wawi</span></a><p>Tu tienda de menaje y artículos para el hogar. Calidad, diseño y los mejores precios del Perú.</p></div>
+    <div class="fbrand"><a href="#" class="logo" style="color:#fff">Tuki<span style="color:var(--rose)">Wawi</span></a><p>Tu tienda de menaje y artículos para el hogar. Calidad, diseño y los mejores precios del Perú.</p><p style="margin-top:8px;font-size:12px">📍 Jr. Inambari 745 Int. 14 y 29<br>📱 977 746 427</p></div>
     <div class="fcol"><h5>Productos</h5><ul><li><a href="#">Cocina</a></li><li><a href="#">Vajilla & Mesa</a></li><li><a href="#">Baño & Spa</a></li><li><a href="#">Decoración</a></li></ul></div>
     <div class="fcol"><h5>Empresa</h5><ul><li><a href="#">Nosotros</a></li><li><a href="#">Blog</a></li><li><a href="#">Trabaja con nosotros</a></li></ul></div>
     <div class="fcol"><h5>Ayuda</h5><ul><li><a href="#">Envíos</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">Preguntas frecuentes</a></li><li><a href="#">Reclamaciones</a></li></ul></div>
   </div>
-  <div class="fbot"><p>© 2025 TukiWawi.com — Todos los derechos reservados</p><div class="slinks"><a href="#" class="sbtn">f</a><a href="#" class="sbtn">in</a><a href="#" class="sbtn">ig</a></div></div>
+  <div class="fbot"><p>© 2025 TukiWawi.com — Todos los derechos reservados</p><div class="slinks"><a href="https://www.facebook.com/tukibabystor" target="_blank" class="sbtn">f</a><a href="https://www.tiktok.com/@tukiwawi" target="_blank" class="sbtn">tt</a><a href="https://www.instagram.com/tukibabystor/" target="_blank" class="sbtn">ig</a></div></div>
 </footer>
 <!-- LOGIN MODAL -->
 <div class="moverlay" id="loginModal" onclick="clo(event,'loginModal')">
@@ -262,9 +264,9 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:52px 6% 26px}
       <div class="igrp"><label>Descripción</label><textarea id="ep-desc" placeholder="Descripción breve del producto..."></textarea></div>
       <div class="row2">
         <div class="igrp"><label>Categoría</label><select id="ep-cat">
-          <option value="cocina">Cocina</option><option value="vajilla">Vajilla & Mesa</option>
-          <option value="bano">Baño & Spa</option><option value="sala">Sala & Decoración</option>
-          <option value="dormitorio">Dormitorio</option><option value="organiz">Organización</option>
+          <option value="taper">Taper</option><option value="tomatodo-kids">Tomatodo Kids</option>
+          <option value="tomatodo-juvenil">Tomatodo Juvenil</option><option value="cubierto">Cubiertos</option>
+          <option value="vajilla">Vajilla</option><option value="aseo">Aseo</option>
         </select></div>
         <div class="igrp"><label>Badge (etiqueta)</label><select id="ep-badge">
           <option value="">Sin etiqueta</option><option value="Nuevo">🟢 Nuevo</option>
@@ -281,22 +283,23 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:52px 6% 26px}
 <script>
 const CFG={
   adminPass:'admin2025',
-  loginUser:'tukiwawi',loginPass:'tukiwawi2025',
-  adminUser:'admin',adminUserPass:'admin2025',
+  loginUser:'pparionadlc',loginPass:'Pedro+1369',
+  adminUser:'pparionadlc',adminUserPass:'Pedro+1369',
   whatsapp:'51999999999',
   menaje_url:'https://finanzas.pparionadlc.workers.dev/',
   carton_url:'https://cartones.pparionadlc.workers.dev/',
-  storageKey:'tukiwawi_data_v2'
+  storageKey:'tukiwawi_data_v3'
 };
 const DEFPRODS=[
-  {id:1,name:'Set de Ollas Premium',desc:'5 piezas antiadherentes, apto para todo tipo de cocinas',price:189,cat:'cocina',emoji:'🍲',badge:'-20%',img:'',bg:'pi1'},
-  {id:2,name:'Vajilla Porcelana 24 pzas',desc:'Diseño floral pastel, resistente y elegante para la mesa',price:245,cat:'vajilla',emoji:'🍽️',badge:'Nuevo',img:'',bg:'pi2'},
-  {id:3,name:'Set Utensilios x10',desc:'Acero inoxidable con mango ergonómico, resistente al calor',price:79,cat:'cocina',emoji:'🥄',badge:'',img:'',bg:'pi3'},
-  {id:4,name:'Set Toallas Premium',desc:'100% algodón egipcio, extra suaves y absorbentes',price:95,cat:'bano',emoji:'🛁',badge:'-15%',img:'',bg:'pi4'},
-  {id:5,name:'Maceteros Decorativos x3',desc:'Cerámica artesanal en tonos pastel, 3 tamaños incluidos',price:65,cat:'sala',emoji:'🪴',badge:'Nuevo',img:'',bg:'pi5'},
-  {id:6,name:'Set Tazas & Platos x6',desc:'Diseño nórdico minimalista, apto para microondas',price:110,cat:'vajilla',emoji:'☕',badge:'',img:'',bg:'pi6'},
-  {id:7,name:'Contenedores Herméticos x6',desc:'Libre de BPA, apilables, conservan alimentos frescos',price:55,cat:'cocina',emoji:'🧊',badge:'',img:'',bg:'pi7'},
-  {id:8,name:'Dispensadores Baño Set x3',desc:'Vidrio esmerilado con tapa dorada, diseño minimalista',price:85,cat:'bano',emoji:'🧴',badge:'',img:'',bg:'pi8'},
+  {id:1,name:'Taper Hermético',desc:'Set de tapers herméticos, libre de BPA, apilables y resistentes',price:25,cat:'taper',emoji:'🥡',badge:'Nuevo',img:'',bg:'pi1'},
+  {id:2,name:'Taper Redondo x3',desc:'Set 3 tapers redondos con tapa a presión, fácil de limpiar',price:18,cat:'taper',emoji:'🥡',badge:'',img:'',bg:'pi7'},
+  {id:3,name:'Tomatodo Kids Dinosaurio',desc:'Tomatodo infantil con diseño divertido, libre de BPA, 500ml',price:22,cat:'tomatodo-kids',emoji:'🦕',badge:'Nuevo',img:'',bg:'pi2'},
+  {id:4,name:'Tomatodo Kids Unicornio',desc:'Tomatodo con diseño unicornio, tapa hermética, 450ml',price:22,cat:'tomatodo-kids',emoji:'🦄',badge:'',img:'',bg:'pi5'},
+  {id:5,name:'Tomatodo Juvenil Sport',desc:'Tomatodo juvenil deportivo con pitillo, 750ml',price:28,cat:'tomatodo-juvenil',emoji:'🧃',badge:'-10%',img:'',bg:'pi3'},
+  {id:6,name:'Tomatodo Juvenil Acero',desc:'Tomatodo acero inoxidable, mantiene temperatura 12 horas',price:35,cat:'tomatodo-juvenil',emoji:'🫙',badge:'Nuevo',img:'',bg:'pi6'},
+  {id:7,name:'Cubiertos Set x6',desc:'Set cubiertos de acero inoxidable, 6 personas, incluye estuche',price:45,cat:'cubierto',emoji:'🍴',badge:'',img:'',bg:'pi4'},
+  {id:8,name:'Vajilla Set 12 pzas',desc:'Vajilla completa para 4 personas, diseño moderno y elegante',price:89,cat:'vajilla',emoji:'🍽️',badge:'-15%',img:'',bg:'pi8'},
+  {id:9,name:'Kit Aseo Personal',desc:'Kit completo de aseo con dispensadores y accesorios de baño',price:32,cat:'aseo',emoji:'🧴',badge:'Nuevo',img:'',bg:'pi2'},
 ];
 let DATA={products:[],nextId:10};
 let isAdmin=false;let editImg='';let curFilter='todos';
@@ -304,7 +307,7 @@ function init(){
   const s=localStorage.getItem(CFG.storageKey);
   if(s){try{DATA=JSON.parse(s);}catch(e){DATA={products:[...DEFPRODS],nextId:10};}}
   else{DATA={products:[...DEFPRODS],nextId:10};}
-  document.getElementById('wa-link').href='https://wa.me/'+CFG.whatsapp;
+  document.getElementById('wa-link').href='https://wa.me/51977746427?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20productos%20%F0%9F%8F%A0';
   document.getElementById('btn-menaje').href=CFG.menaje_url;
   document.getElementById('btn-carton').href=CFG.carton_url;
   renderProducts();updateCatCounts();
@@ -395,7 +398,7 @@ function openNewProd(){
   document.getElementById('edit-modal-title').textContent='Nuevo producto';
   document.getElementById('edit-idx').value='new';
   document.getElementById('ep-name').value='';document.getElementById('ep-price').value='';
-  document.getElementById('ep-desc').value='';document.getElementById('ep-cat').value='cocina';
+  document.getElementById('ep-desc').value='';document.getElementById('ep-cat').value='taper';
   document.getElementById('ep-badge').value='';document.getElementById('ep-emoji').value='📦';
   editImg='';document.getElementById('img-preview-box').innerHTML='<div class="upload-hint">📷 Clic para subir tu foto<br><small>JPG o PNG</small></div>';
   openM('editProdModal');
