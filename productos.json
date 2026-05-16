@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Taper Hermético Set",
+      "desc": "Set de tapers herméticos, libre de BPA, apilables y resistentes.",
+      "price": 25,
+      "cat": "taper",
+      "emoji": "🥡",
+      "badge": "Nuevo",
+      "img": "",
+      "bg": "pi1"
+    },
+    {
+      "id": 2,
+      "name": "Taper Redondo x3",
+      "desc": "Set 3 tapers redondos con tapa a presión, fácil de limpiar, libre de BPA.",
+      "price": 18,
+      "cat": "taper",
+      "emoji": "🥡",
+      "badge": "",
+      "img": "",
+      "bg": "pi7"
+    },
+    {
+      "id": 3,
+      "name": "Tomatodo Kids Dinosaurio",
+      "desc": "Tomatodo infantil con diseño dinosaurio, libre de BPA, 500ml.",
+      "price": 22,
+      "cat": "tomatodo-kids",
+      "emoji": "🦕",
+      "badge": "Nuevo",
+      "img": "",
+      "bg": "pi2"
+    },
+    {
+      "id": 4,
+      "name": "Tomatodo Kids Unicornio",
+      "desc": "Tomatodo con diseño unicornio, tapa hermética, 450ml.",
+      "price": 22,
+      "cat": "tomatodo-kids",
+      "emoji": "🦄",
+      "badge": "",
+      "img": "",
+      "bg": "pi5"
+    },
+    {
+      "id": 5,
+      "name": "Tomatodo Juvenil Sport",
+      "desc": "Tomatodo juvenil deportivo con pitillo, 750ml.",
+      "price": 28,
+      "cat": "tomatodo-juvenil",
+      "emoji": "🧃",
+      "badge": "-10%",
+      "img": "",
+      "bg": "pi3"
+    },
+    {
+      "id": 6,
+      "name": "Tomatodo Juvenil Acero",
+      "desc": "Tomatodo acero inoxidable, mantiene temperatura 12 horas.",
+      "price": 35,
+      "cat": "tomatodo-juvenil",
+      "emoji": "🫙",
+      "badge": "Nuevo",
+      "img": "",
+      "bg": "pi6"
+    },
+    {
+      "id": 7,
+      "name": "Cubiertos Set x6 personas",
+      "desc": "Set cubiertos de acero inoxidable para 6 personas con estuche.",
+      "price": 45,
+      "cat": "cubierto",
+      "emoji": "🍴",
+      "badge": "",
+      "img": "",
+      "bg": "pi4"
+    },
+    {
+      "id": 8,
+      "name": "Vajilla Set 12 piezas",
+      "desc": "Vajilla completa para 4 personas, diseño moderno y elegante.",
+      "price": 89,
+      "cat": "vajilla",
+      "emoji": "🍽️",
+      "badge": "-15%",
+      "img": "",
+      "bg": "pi8"
+    },
+    {
+      "id": 9,
+      "name": "Kit Aseo Personal",
+      "desc": "Kit completo de aseo con dispensadores y accesorios de baño.",
+      "price": 32,
+      "cat": "aseo",
+      "emoji": "🧴",
+      "badge": "Nuevo",
+      "img": "",
+      "bg": "pi2"
+    }
+  ],
+  "nextId": 10
+}
